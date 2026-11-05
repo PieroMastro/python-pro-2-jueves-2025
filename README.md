@@ -23,13 +23,3 @@ El repositorio está organizado por proyectos e hitos de aprendizaje:
 ├── 📁 proyecto_02_[nombre]/     # [Próximo proyecto]
 │   └── ...
 └── 📁 recursos/                # Plantillas y scripts auxiliares
-'''
-
-
-🚀 Requisitos e Indicaciones para Estudiantes
-1. ¿Cómo debes trabajar?
-Tus propios repositorios: Cada estudiante debe trabajar sobre su propio repositorio personal en GitHub para este curso.
-
-Clonación y sincronización: Utiliza este repositorio oficial como base. Puedes clonarlo o descargar actualizaciones cuando el instructor lo indique para incorporar el código base de los nuevos proyectos a tu propio espacio de trabajo:
-
-git clone [https://github.com/PieroMastro/python-pro-2-jueves-2025.git](https://github.com/PieroMastro/python-pro-2-jueves-2025.git)
