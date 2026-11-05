@@ -23,6 +23,8 @@ El repositorio está organizado por proyectos e hitos de aprendizaje:
 ├── 📁 proyecto_02_[nombre]/     # [Próximo proyecto]
 │   └── ...
 └── 📁 recursos/                # Plantillas y scripts auxiliares
+'''
+
 
 🚀 Requisitos e Indicaciones para Estudiantes
 1. ¿Cómo debes trabajar?
