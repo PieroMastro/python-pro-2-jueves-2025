@@ -81,11 +81,9 @@ class IntroScreen(Screen):
         globales.
         """
         global name, age
+
         name = self.name_input.text
-        try:
-            age = int(self.age_input.text)
-        except ValueError:
-            age = 7
+        age = int(self.age_input.text)
         self.manager.current = "pulse1"
 
 
@@ -116,10 +114,8 @@ class PulseScr(Screen):
 
     def next(self):
         global pulse_1
-        try:
-            pulse_1 = int(self.pulse_1_input.text)
-        except ValueError:
-            pulse_1 = 0
+
+        pulse_1 = int(self.pulse_1_input.text)
         self.manager.current = "sits"
 
 
@@ -178,11 +174,9 @@ class PulseScr2(Screen):
 
     def next(self):
         global pulse_2, pulse_3
-        try:
-            pulse_2 = int(self.pulse_2_input.text)
-            pulse_3 = int(self.pulse_3_input.text)
-        except ValueError:
-            pulse_2, pulse_3 = 0, 0
+
+        pulse_2 = int(self.pulse_2_input.text)
+        pulse_3 = int(self.pulse_3_input.text)
         self.manager.current = "result"
 
 
